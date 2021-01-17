@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUBWAY - 샌드위치</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/sandwich.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="./js/dropdown.js"></script>
+  <script src="./js/sandwich.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <div class="content">
+        <div id="title">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./image/logo.png" alt="로고">
+            </a>
+          </div>
+          <div class="util-menu">
+            <ul>
+              <li class="util-menu-signin">
+                <a href="#">로그인</a>
+              </li>
+              <li class="util-menu-signup">
+                <a href="#">회원가입</a>
+              </li>
+              <li class="util-menu-global">
+                <img src="./image/icon/global.png" alt="지구">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav>
+          <div class="gnb">
+            <ul>
+              <li>
+                <a href="#">메뉴소개</a>
+                <div class="snb">
+                  <ul>
+                    <li><a href="./sandwich.html">샌드위치</a></li>
+                    <li><a href="#">랩ㆍ기타</a></li>
+                    <li><a href="#">찹샐러드</a></li>
+                    <li><a href="#">스마일 썹</a></li>
+                    <li><a href="#">단체메뉴</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">이용방법</a>
+                <div class="snb">
+                  <ul>
+                    <li><a href="#">서브웨이 이용방법</a></li>
+                    <li><a href="#">단체메뉴 이용방법</a></li>
+                    <li><a href="#">신선한 재료 소개</a></li>
+                    <li><a href="#">App 이용방법</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">새소식</a></li>
+              <li><a href="#">써브웨이</a></li>
+              <li><a href="#">가맹점</a></li>
+              <li><a href="#">온라인주문</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="sub-header">
+        <div class="content">
+          <div class="logo">
+            <a href="/">
+              <img src="./image/sub_logo.png" alt="로고 이미지">
+            </a>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <li class="active"><a href="#">샌드위치</a></li>
+              <li><a href="#">랩ㆍ기타</a></li>
+              <li><a href="#">찹샐러드</a></li>
+              <li><a href="#">스마일썹</a></li>
+              <li><a href="#">단체메뉴</a></li>
+            </ul>
+          </div>
+          <a href="#" class="top">TOP</a>
+        </div>
+      </div>
+      <div id="banner">
+        <h2>Sandwich</h2>
+        <p>전세계 넘버원 브랜드 Subway!<br>50년 전통의 세계 최고의 샌드위치를 맛보세요!</p>
+        <div class="img"></div>
+      </div>
+      <div id="menu-tab">
+        <div class="content">
+          <ul>
+            <!-- data-menu : 추가정보 -->
+            <li class="active" data-menu="all">ALL</li>
+            <li data-menu="cl">클래식</li>
+            <li data-menu="fl">프레쉬&라이트</li>
+            <li data-menu="pm">프리미엄</li>
+            <li data-menu="bf">아침메뉴</li>
+            <li data-menu="topping">추가선택</li>
+          </ul>
+        </div>
+      </div>
+      <div id="menu">
+        <div class="content">
+          <ul>
+            <li class="cl">
+              <a href="#">
+                <div class="label">NEW</div>
+                <div class="img">
+                  <img src="./image/sandwich/sandwich_pm15.png" alt="샌드위치">
+                </div>
+                <strong class="ktitle">치지 갈릭 미트볼</strong>
+                <span class="etitle">Cheesy Garlic Meatbal</span>
+                <span class="kcal">558 kcal</span>
+                <p class="desc">마늘향 가득한 부드러운 갈릭버터와<br>써브웨이 비프 미트볼의 만남!</p>
+                <div class="icon"></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
